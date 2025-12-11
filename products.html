@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Books — Arbiter's Archive</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+  <div class="brand"><h1>Arbiter's Archive</h1></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="products.html">Books</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Book Collection</h2>
+    <p class="muted">Click a book to see details.</p>
+
+    <section class="books-grid">
+      <!-- Existing curated titles -->
+      <article class="book-card">
+        <a href="books/book-crime-and-punishment.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/crime-punishment.svg')"></div>
+          <div class="book-body">
+            <h3>Crime and Punishment</h3>
+            <p class="muted">Fyodor Dostoevsky — 1866</p>
+            <div class="book-meta">
+              <span class="price">₹199</span>
+              <span class="muted">Classic</span>
+            </div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-crime-and-punishment.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-myth-of-sisyphus.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/myth-sisyphus.svg')"></div>
+          <div class="book-body">
+            <h3>The Myth of Sisyphus</h3>
+            <p class="muted">Albert Camus — 1942</p>
+            <div class="book-meta">
+              <span class="price">₹199</span>
+              <span class="muted">Philosophy</span>
+            </div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-myth-of-sisyphus.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-modern-php.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/modern-php.svg')"></div>
+          <div class="book-body">
+            <h3>Modern PHP</h3>
+            <p class="muted">Josh Lockhart — 2020</p>
+            <div class="book-meta">
+              <span class="price">₹499</span>
+              <span class="muted">Programming</span>
+            </div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-modern-php.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <!-- Additional sample books (20+) -->
+      <article class="book-card">
+        <a href="books/book-to-kill-a-mockingbird.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/to-kill-mockingbird.svg')"></div>
+          <div class="book-body">
+            <h3>To Kill a Mockingbird</h3>
+            <p class="muted">Harper Lee — 1960</p>
+            <div class="book-meta"><span class="price">₹249</span><span class="muted">Fiction</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-to-kill-a-mockingbird.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-1984.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/1984.svg')"></div>
+          <div class="book-body">
+            <h3>1984</h3>
+            <p class="muted">George Orwell — 1949</p>
+            <div class="book-meta"><span class="price">₹199</span><span class="muted">Dystopia</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-1984.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-pride-and-prejudice.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/pride-prejudice.svg')"></div>
+          <div class="book-body">
+            <h3>Pride and Prejudice</h3>
+            <p class="muted">Jane Austen — 1813</p>
+            <div class="book-meta"><span class="price">₹229</span><span class="muted">Classic</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-pride-and-prejudice.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-great-gatsby.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/great-gatsby.svg')"></div>
+          <div class="book-body">
+            <h3>The Great Gatsby</h3>
+            <p class="muted">F. Scott Fitzgerald — 1925</p>
+            <div class="book-meta"><span class="price">₹199</span><span class="muted">Classic</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-great-gatsby.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-brave-new-world.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/brave-new-world.svg')"></div>
+          <div class="book-body">
+            <h3>Brave New World</h3>
+            <p class="muted">Aldous Huxley — 1932</p>
+            <div class="book-meta"><span class="price">₹189</span><span class="muted">Dystopia</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-brave-new-world.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-catcher-in-the-rye.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/catcher-rye.svg')"></div>
+          <div class="book-body">
+            <h3>The Catcher in the Rye</h3>
+            <p class="muted">J.D. Salinger — 1951</p>
+            <div class="book-meta"><span class="price">₹219</span><span class="muted">Fiction</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-catcher-in-the-rye.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-sapiens.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/sapiens.svg')"></div>
+          <div class="book-body">
+            <h3>Sapiens</h3>
+            <p class="muted">Yuval Noah Harari — 2011</p>
+            <div class="book-meta"><span class="price">₹399</span><span class="muted">Non-fiction</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-sapiens.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-lean-ux.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/lean-ux.svg')"></div>
+          <div class="book-body">
+            <h3>Lean UX</h3>
+            <p class="muted">Jeff Gothelf — 2013</p>
+            <div class="book-meta"><span class="price">₹499</span><span class="muted">Design</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-lean-ux.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-clean-code.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/clean-code.svg')"></div>
+          <div class="book-body">
+            <h3>Clean Code</h3>
+            <p class="muted">Robert C. Martin — 2008</p>
+            <div class="book-meta"><span class="price">₹799</span><span class="muted">Programming</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-clean-code.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-the-alchemist.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/the-alchemist.svg')"></div>
+          <div class="book-body">
+            <h3>The Alchemist</h3>
+            <p class="muted">Paulo Coelho — 1988</p>
+            <div class="book-meta"><span class="price">₹249</span><span class="muted">Fiction</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-the-alchemist.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-thinking-fast-and-slow.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/thinking-fast-slow.svg')"></div>
+          <div class="book-body">
+            <h3>Thinking, Fast and Slow</h3>
+            <p class="muted">Daniel Kahneman — 2011</p>
+            <div class="book-meta"><span class="price">₹549</span><span class="muted">Psychology</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-thinking-fast-and-slow.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-pragmatic-programmer.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/pragmatic-programmer.svg')"></div>
+          <div class="book-body">
+            <h3>The Pragmatic Programmer</h3>
+            <p class="muted">Andrew Hunt & David Thomas — 1999</p>
+            <div class="book-meta"><span class="price">₹699</span><span class="muted">Programming</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-pragmatic-programmer.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-atlas-shrugged.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/atlas-shrugged.svg')"></div>
+          <div class="book-body">
+            <h3>Atlas Shrugged</h3>
+            <p class="muted">Ayn Rand — 1957</p>
+            <div class="book-meta"><span class="price">₹399</span><span class="muted">Philosophy</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-atlas-shrugged.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-guns-germs-and-steel.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/guns-germs-steel.svg')"></div>
+          <div class="book-body">
+            <h3>Guns, Germs, and Steel</h3>
+            <p class="muted">Jared Diamond — 1997</p>
+            <div class="book-meta"><span class="price">₹549</span><span class="muted">History</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-guns-germs-and-steel.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <!-- Removed HP per request; replaced with The Hobbit and LOTR above -->
+
+      <article class="book-card">
+        <a href="books/book-deep-work.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/deep-work.svg')"></div>
+          <div class="book-body">
+            <h3>Deep Work</h3>
+            <p class="muted">Cal Newport — 2016</p>
+            <div class="book-meta"><span class="price">₹349</span><span class="muted">Productivity</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-deep-work.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-atomic-habits.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/atomic-habits.svg')"></div>
+          <div class="book-body">
+            <h3>Atomic Habits</h3>
+            <p class="muted">James Clear — 2018</p>
+            <div class="book-meta"><span class="price">₹399</span><span class="muted">Self-help</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-atomic-habits.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-the-hobbit.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/the-hobbit.svg')"></div>
+          <div class="book-body">
+            <h3>The Hobbit</h3>
+            <p class="muted">J.R.R. Tolkien — 1937</p>
+            <div class="book-meta"><span class="price">₹279</span><span class="muted">Fantasy</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-the-hobbit.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-lord-of-the-rings.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/lotr.svg')"></div>
+          <div class="book-body">
+            <h3>The Lord of the Rings</h3>
+            <p class="muted">J.R.R. Tolkien — 1954</p>
+            <div class="book-meta"><span class="price">₹899</span><span class="muted">Fantasy</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-lord-of-the-rings.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <a href="books/book-moby-dick.html" style="text-decoration:none;color:inherit">
+          <div class="book-cover" style="background-image: url('assets/moby-dick.svg')"></div>
+          <div class="book-body">
+            <h3>Moby-Dick</h3>
+            <p class="muted">Herman Melville — 1851</p>
+            <div class="book-meta"><span class="price">₹299</span><span class="muted">Classic</span></div>
+          </div>
+        </a>
+        <div class="card-actions" style="padding:8px 12px;display:flex;gap:8px">
+          <a class="btn" href="books/book-moby-dick.html">View</a>
+          <a class="btn" href="cart.html">Add</a>
+        </div>
+      </article>
+
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+  <div>© 2025 Arbiter's Archive — A curated archive</div>
+      <div>
+        <a href="about.html">About</a>
+        &nbsp;·&nbsp;
+        <a href="contact.html">Contact</a>
+        &nbsp;·&nbsp;
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
